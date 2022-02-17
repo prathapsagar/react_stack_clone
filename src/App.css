@@ -1,0 +1,5 @@
+@media(max-width:320px) {
+    .product-image {
+        margin-top: 10px;
+    }
+}
