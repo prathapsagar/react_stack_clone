@@ -6,12 +6,11 @@ import Header from "./components/Header";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Question from "./components/Question";
-export const url = "http://localhost:4000/users";
-export const FoodContext = React.createContext();
+export const url = "https://express-stack-clone.herokuapp.com/users/";
+
 
 function App() {
-  let [data, setData] = useState([]);
-  let [cart, setCart] = useState([]);
+
  
 
 
