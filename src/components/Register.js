@@ -24,7 +24,7 @@ useEffect(() => {
      email
     };
     let res = await axios.post(`${url}/signup`, reqBody);
-    if (res.data.statusCode === 200) {
+    if (res.data.statusCode >= 200) {
       navigate("/Login");
     } else {
       console.log(res.data.message);
