@@ -25,7 +25,7 @@ useEffect(() => {
     };
     let res = await axios.post(`${url}/signup`, reqBody);
     if (res.data.statusCode === 200) {
-      navigate("/");
+      navigate("/Login");
     } else {
       console.log(res.data.message);
     }
